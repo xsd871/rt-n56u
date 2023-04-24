@@ -133,8 +133,8 @@ struct nvram_pair router_defaults[] = {
 	{ "wan_ppp_peer", "" },			/* VPN server address */
 	{ "wan_ppp_auth", "0" },		/* PPP authentication */
 	{ "wan_ppp_mppe", "0" },		/* MPPE encryption */
-	{ "wan_ppp_lcp", "1" },
-	{ "wan_ppp_alcp", "0" },		/* Adaptive LCP Echo */
+	{ "wan_ppp_lcp", "0" },
+	{ "wan_ppp_alcp", "1" },		/* Adaptive LCP Echo */
 	{ "wan_ppp_pppd", "" },			/* Custom PPPD options */
 
 	/* Exposed station */
@@ -918,7 +918,7 @@ struct nvram_pair router_defaults[] = {
 #endif
 
 	{ "telnetd", "0" },
-	{ "sshd_enable", "1" },
+	{ "sshd_enable", "0" },
 	{ "wins_enable", "0" },
 	{ "lltd_enable", "1" },
 	{ "adsc_enable", "0" },
