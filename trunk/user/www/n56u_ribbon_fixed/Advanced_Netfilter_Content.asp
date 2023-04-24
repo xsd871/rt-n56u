@@ -151,8 +151,6 @@ function done_validating(action){
                             <div class="round_bottom">
                                 <div class="row-fluid">
                                     <div id="tabMenu" class="submenuBlock"></div>
-                                    <div class="alert alert-info" style="margin: 10px;"><#NFilter_desc#></div>
-
                                     <table width="100%" cellpadding="4" cellspacing="0" class="table">
                                         <tr>
                                             <th colspan="2" style="background-color: #E3E3E3;"><#NFilterConfig#></th>
