@@ -782,6 +782,5 @@ function showMRULESList(){
     </form>
     <div id="footer"></div>
 </div>
-
 </body>
 </html>
