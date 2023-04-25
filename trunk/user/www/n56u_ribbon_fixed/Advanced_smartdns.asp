@@ -282,6 +282,9 @@ function showMRULESList(){
                             </ul>
                         </div>
                                 <div class="row-fluid">
+                                    <div id="tabMenu" class="submenuBlock"></div>
+									<div class="alert alert-info" style="margin: 10px;"><#menu5_24#>是一个本地高性能DNS服务器，支持避免域名污染，支持返回最快IP，支持广告过滤。</br>
+</div>
 </div>
 <div id="wnd_sm_cfg">
                                     <table width="100%" cellpadding="4" cellspacing="0" class="table">
