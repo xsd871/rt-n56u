@@ -256,16 +256,6 @@ function showMRULESList(){
                         <div class="box well grad_colour_dark_blue">
                             <h2 class="box_head round_top"><#menu5_29#> - <#menu5_24#></h2>
                             <div class="round_bottom">
-							<div>
-                            <ul class="nav nav-tabs" style="margin-bottom: 10px;">
-                                <li class="active">
-                                    <a href="Advanced_smartdns.asp"><#menu5_24#></a>
-                                </li>
-								 <li id="adglink" style="display:none">
-                                    <a href="Advanced_adguardhome.asp"><#menu5_28#></a>
-                                </li>
-                            </ul>
-                        </div>
 						<div>
                             <ul class="nav nav-tabs" style="margin-bottom: 10px;">
                                 <li class="active">
@@ -283,7 +273,7 @@ function showMRULESList(){
                         </div>
                                 <div class="row-fluid">
                                     <div id="tabMenu" class="submenuBlock"></div>
-									<div class="alert alert-info" style="margin: 10px;"><#menu5_24#>是一个本地高性能DNS服务器，支持避免域名污染，支持返回最快IP，支持广告过滤。</br>
+									<div class="alert alert-info" style="margin: 10px;"><#menu5_24#>是一个本地高性能DNS服务器，避免域名污染，返回最快IP。</br>
 </div>
 </div>
 <div id="wnd_sm_cfg">
