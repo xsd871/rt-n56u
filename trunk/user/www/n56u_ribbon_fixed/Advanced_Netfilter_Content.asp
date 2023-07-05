@@ -196,7 +196,7 @@ function done_validating(action){
                                             </td>
                                         </tr>
                                         <tr id="row_nat_loop">
-                                            <th>NAT loopback</th>
+                                            <th><#NATloopback#></th>
                                             <td>
                                                 <div class="main_itoggle">
                                                     <div id="nf_nat_loop_on_of">
