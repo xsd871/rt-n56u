@@ -717,7 +717,7 @@ function simplyMAC(fullMAC){
                                                     <option value="1" <% nvram_match_x("", "hw_nat_mode", "1", "selected"); %>>Offload TCP for LAN/WLAN</option>
                                                     <option value="3" <% nvram_match_x("", "hw_nat_mode", "3", "selected"); %>>Offload TCP/UDP for LAN</option>
                                                     <option value="4" <% nvram_match_x("", "hw_nat_mode", "4", "selected"); %>>Offload TCP/UDP for LAN/WLAN</option>
-                                                    <option value="2" <% nvram_match_x("", "hw_nat_mode", "2", "selected"); %>>Disable (Slow)</option>
+                                                    <option value="2" <% nvram_match_x("", "hw_nat_mode", "2", "selected"); %>><#hw_nat_DIS#></option>
                                                 </select>
                                             </td>
                                         </tr>
@@ -725,7 +725,7 @@ function simplyMAC(fullMAC){
                                             <th><#WAN_SFE#></a></th>
                                             <td>
                                                 <select name="sfe_enable" class="input">
-                                                    <option value="0" <% nvram_match_x("", "sfe_enable", "0", "selected"); %>>Disable</option>
+                                                    <option value="0" <% nvram_match_x("", "sfe_enable", "0", "selected"); %>><#SFE_DIS#></option>
                                                     <option value="1" <% nvram_match_x("", "sfe_enable", "1", "selected"); %>>Enable for IPv4/IPv6</option>
                                                     <option value="2" <% nvram_match_x("", "sfe_enable", "2", "selected"); %>>Enable for IPv4/IPv6 and WiFi</option>
                                                 </select>
