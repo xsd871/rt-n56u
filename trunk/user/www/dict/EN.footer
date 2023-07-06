@@ -281,6 +281,7 @@ WAN_TTL_Value_Item0=Default
 WAN_TTL_Value_Item1=64(Unix)
 WAN_TTL_Value_Item2=128(Windows)
 Wan_mtu=MTU
+Wandns=DNS:
 DDNS_SVR=DDNS Server (FQDN or IP):
 DDNS_URL=URL path for update:
 DDNS_Second=Second DDNS Service
