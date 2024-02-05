@@ -299,7 +299,7 @@ function on_xupnpd_link(){
                                                 <input type="text" maxlength="5" class="input" size="15" name="udpxy_enable_x" value="<% nvram_get_x("", "udpxy_enable_x"); %>" onkeypress="return is_number(this,event);" onblur="valid_udpxy();"/>
                                             </td>
                                             <td width="15%">
-                                                <a href="javascript:on_udpxy_link();" id="web_udpxy_link">Web status</a>
+                                                <a href="javascript:on_udpxy_link();" id="web_udpxy_link">#Web_status#</a>
                                             </td>
                                         </tr>
                                         <tr id="row_xupnpd">
@@ -308,7 +308,7 @@ function on_xupnpd_link(){
                                                 <input type="text" maxlength="5" class="input" size="15" name="xupnpd_enable_x" value="<% nvram_get_x("", "xupnpd_enable_x"); %>" onkeypress="return is_number(this,event);" onblur="valid_xupnpd();"/>
                                             </td>
                                             <td width="15%">
-                                                <a href="javascript:on_xupnpd_link();" id="web_xupnpd_link">Web status</a>
+                                                <a href="javascript:on_xupnpd_link();" id="web_xupnpd_link">#Web_status#</a>
                                             </td>
                                         </tr>
                                         <tr id="row_xupnpd_udpxy" style="display:none;">
