@@ -1851,5 +1851,5 @@ Login=Login
 BTN_SHUTDOWN=Shutdown
 JS_shutdown=You need manually power on after shutdown!!! Continue to shutdown?
 NATloopback=NAT loopback
-
+Web_status=Web status
 
